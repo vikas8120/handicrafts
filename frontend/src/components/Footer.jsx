@@ -17,9 +17,17 @@ export default function Footer() {
           <Link to="/gallery">Gallery</Link>
         </div>
         <div className="text-sm text-walnut/70">
-          <p>Studio Hours</p>
-          <p className="mt-2">Mon - Sat, 10:00 - 19:00</p>
-          <p className="mt-4">Built as a frontend-only luxury experience.</p>
+          <p className="uppercase tracking-[0.35em] text-bronze">Official Contact</p>
+          <a className="mt-4 block transition-colors hover:text-walnut" href="tel:+918985419420">
+            +91 8985419420
+          </a>
+          <a className="mt-2 block transition-colors hover:text-walnut" href="mailto:Info@kriscel.com">
+            Info@kriscel.com
+          </a>
+          <p className="mt-4 max-w-sm leading-6">
+            229, Bharthal, Sector - 26, Dwarka, South West Delhi, Delhi, 110077
+          </p>
+          <p className="mt-4">Mon - Sat, 10:00 - 19:00</p>
         </div>
       </div>
     </footer>
